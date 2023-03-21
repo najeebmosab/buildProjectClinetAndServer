@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "age": 28,
+        "email": "john.smith@gmail.com",
+        "phone": "+1-555-123-4567",
+        "address": {
+            "street": "123 Main St",
+            "city": "Anytown",
+            "state": "CA",
+            "country": "USA"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Alice Johnson2",
+        "age": 35,
+        "email": "alice.johnson1234@yahoo.com",
+        "phone": "+1-555-987-6543",
+        "address": {
+            "street": "456 Elm St",
+            "city": "Otherville",
+            "state": "NY",
+            "country": "USA"
+        }
+    },
+    {
+        "id": "4tdkb6r8lfi3f7fz",
+        "name": "Alice Johnson2",
+        "age": 35,
+        "email": "alice.johnson1234@yahoo.com",
+        "phone": "+1-555-987-6543",
+        "address": {
+            "street": "456 Elm St",
+            "city": "Otherville",
+            "state": "NY",
+            "country": "USA"
+        }
+    }
+]
