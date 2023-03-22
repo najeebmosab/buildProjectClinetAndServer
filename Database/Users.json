@@ -3,7 +3,9 @@
         "id": 1,
         "name": "John Smith",
         "age": 28,
+        "type": "admin",
         "email": "john.smith@gmail.com",
+        "password": "$2b$10$pn8.lx1hc995ElOLf55Sc.T96Q8UU6jBIW34yhh6ouPcj1KgtCB1y",
         "phone": "+1-555-123-4567",
         "address": {
             "street": "123 Main St",
@@ -14,14 +16,16 @@
     },
     {
         "id": 2,
-        "name": "Alice Johnson2",
-        "age": 35,
-        "email": "alice.johnson1234@yahoo.com",
-        "phone": "+1-555-987-6543",
+        "name": "John Smith2",
+        "age": 28,
+        "type": "user",
+        "email": "john.smith213@gmail.com",
+        "password": "$2b$10$NS7ZAfGMeFM1076WFOjG5eUjxXHQBN.hVjuoZ.oJWXRrA3ehUfAN.",
+        "phone": "+1-555-123-4567",
         "address": {
-            "street": "456 Elm St",
-            "city": "Otherville",
-            "state": "NY",
+            "street": "123 6575675Main St",
+            "city": "Anytown",
+            "state": "CA",
             "country": "USA"
         }
     },
@@ -29,7 +33,9 @@
         "id": "4tdkb6r8lfi3f7fz",
         "name": "Alice Johnson2",
         "age": 35,
+        "type": "employee",
         "email": "alice.johnson1234@yahoo.com",
+        "password": "$2b$10$.2.gSLJARpTJulMq2JOWwO3MhTxqwTCh77nNqUK8b.FMn1veRLhq6",
         "phone": "+1-555-987-6543",
         "address": {
             "street": "456 Elm St",

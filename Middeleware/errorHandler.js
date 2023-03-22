@@ -5,28 +5,29 @@ const errorHandler = (err, req, res, next) => {
     switch (statusCode) {
         case errorHandlerUser.NOT_FOUND:
             res.json({ title: "not Found", massege: err.massege, stackTrace: err.stack });
-            break;
+            return;
 
         case errorHandlerUser.VALIDATION_ERROR:
             res.json({ title: "Validation failed", massege: err.massege, stackTrace: err.stack });
-            break;
+            return;
 
         case errorHandlerUser.UNAUTHORIZED:
             res.json({ title: "UNAUTHORIZED", massege: err.massege, stackTrace: err.stack });
-            break;
+            return;
 
         case errorHandlerUser.FORBIDDEN:
             res.json({ title: "FORBIDDEN", massege: err.massege, stackTrace: err.stack });
-            break;
-
-        case errorHandlerUser.SERVER_ERROR:
-            res.json({ title: "SERVER_ERROR", massege: err.massege, stackTrace: err.stack });
-            break;
+            return;
 
         default:
-            break;
-    }
+            console.log("inside");
+            res.statusCode = 500;
+            res.json({ title: "SERVER_ERROR", massege: err.massege, stackTrace: err.stack });
+            return;
 
+
+    }
+    // next()
 }
 
 module.exports = { errorHandler };
